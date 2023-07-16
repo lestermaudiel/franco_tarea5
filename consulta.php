@@ -5,8 +5,4 @@ if ($metodo === 'GET') {
 } else {
     echo "ERROR: El método no es GET";
 }
-<script>
-    var mensaje = "<?php echo $mensaje; ?>";
-    alert(mensaje);
-</script>
 ?>
